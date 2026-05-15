@@ -11,20 +11,6 @@ class Book {
 ```
 This feels redundant at first because you are seeing the **same words repeated in 3 different roles**.
 
-Your code:
-
-```ts
-class Book {
-  name: string;
-  book: string;
-
-  constructor(name: string, book: string) {
-    this.name = name;
-    this.book = book;
-  }
-}
-```
-
 The repetition exists because each occurrence has a **different job**.
 
 ---
